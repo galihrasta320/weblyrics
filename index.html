@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Web Lirik Galih TheRasta</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <!--
+    Script ini Script Open Source dari Galih TheRasta
+    Dilarang memperjualbelikan script ini
+    Kalian boleh memodifikasi script ini sesuka hati kalian
+    ======
+    Baca panduan lebih lanjut di https://github.com/galihrasta320
+  -->
+  <body>
+    <div class="holder">
+      <div class="pindahin">
+        <div class="rabbit-lyrics" data-media="#lirik" data-view-mode="mini">
+          [00:00.0] Lyrics Web by Galih TheRasta
+          [00:06.0] Superman Is Dead > Kuat Kita Bersinar
+          [00:14.0] Kutatap dunia, terasa perih luka di dada
+          [00:21.0] Pertempuran manusia yang buta indahnya perbedaan
+          [00:26.0] Oh, indahnya
+          [00:29.50] Kubisa, engkau pun bisa melupakan kebencian yang ada
+          [00:36.0] Bersama kita terluka, bersama kita bisa tertawa
+          [00:41.50] Dan tertawa
+          [00:44.0] Ayo bangun dunia di dalam perbedaan
+          [00:47.50] Jika satu tetap kuat kita bersinar
+          [00:50.50] Harus percaya tak ada yang sempurna
+          [00:53.50] Dan dunia kembali tertawa
+          [00:58.50] Bayangkan dan senyumlah
+          [01:01.50] Mahkota emas tiada artinya
+          [01:04.50] Ketika raja dan ratu memimpin dunia, semua bersatu
+          [01:09.50] Dan bersatu
+          [01:12.50] Ayo bangun dunia di dalam perbedaan
+          [01:15.50] Jika satu tetap kuat kita bersinar
+          [01:19.50] Harus percaya tak ada yang sempurna
+          [01:22.50] Dan dunia kembali tertawa
+          [01:27.50] Jabat erat tanganku kawan
+          [01:32.50] Kau tak akan pernah sendiri
+          [01:39.50] Hancurkan dendam dengan cinta di dada
+          [01:44.50] Untuk semua manusia
+          [02:09.50] Ayo bangun…
+        </div>
+      </div>
+      <div class="audio green-audio-player">
+        <div class="loading">
+          <div class="spinner"></div>
+        </div>
+        <div id="gg" class="play-pause-btn">  
+          <svg xmlns="http://www.w3.org/2000/svg" width="18" height="24" viewBox="0 0 18 24">
+            <path fill="#566574" fill-rule="evenodd" d="M18 12L0 24V0" class="play-pause-icon" id="playPause"/>
+          </svg>
+        </div>
+    
+        <div class="controls">
+          <span class="current-time">0:00</span>
+          <div class="slider" data-direction="horizontal">
+            <div class="progress">
+              <div class="pin" id="progress-pin" data-method="rewind"></div>
+            </div>
+          </div>
+          <span class="total-time">0:00</span>
+        </div>
+    
+        <div class="volume">
+          <div class="volume-btn">
+            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24">
+              <path fill="#566574" fill-rule="evenodd" d="M14.667 0v2.747c3.853 1.146 6.666 4.72 6.666 8.946 0 4.227-2.813 7.787-6.666 8.934v2.76C20 22.173 24 17.4 24 11.693 24 5.987 20 1.213 14.667 0zM18 11.693c0-2.36-1.333-4.386-3.333-5.373v10.707c2-.947 3.333-2.987 3.333-5.334zm-18-4v8h5.333L12 22.36V1.027L5.333 7.693H0z" id="speaker"/>
+            </svg>
+          </div>
+          <div class="volume-controls hidden">
+            <div class="slider" data-direction="vertical">
+              <div class="progress">
+                <div class="pin" id="volume-pin" data-method="changeVolume"></div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+      <audio id="lirik" controls loop style="display: none;">
+        <source src="jrx.mp3" type="audio/mpeg" />
+      </audio>
+    </div>
+    <script type="text/javascript">
+    document.write(unescape('%3c%70%20%63%6c%61%73%73%3d%22%63%65%70%69%72%69%74%22%3e%0d%0a%20%20%20%20%20%20%4d%61%64%65%20%62%79%20%47%61%6c%69%68%20%54%68%65%52%61%73%74%61%3c%62%72%3e%0d%0a%20%20%20%20%20%20%3c%61%20%68%72%65%66%3d%22%68%74%74%70%73%3a%2f%2f%67%69%74%68%75%62%2e%63%6f%6d%2f%67%61%6c%69%68%72%61%73%74%61%33%32%30%22%3e%3e%3e%20%47%69%74%68%75%62%3c%2f%61%3e%3c%62%72%3e%0d%0a%20%20%20%20%20%20%3c%61%20%68%72%65%66%3d%22%68%74%74%70%73%3a%2f%2f%69%6e%73%74%61%67%72%61%6d%2e%63%6f%6d%2f%67%61%6c%69%68%2e%73%74%79%6e%73%70%74%72%33%32%30%22%3e%3e%3e%20%49%6e%73%74%61%67%72%61%6d%3c%2f%61%3e%0d%0a%20%20%20%20%3c%2f%70%3e'));
+    </script>
+    </div>
+    <script src="main.js"></script>
+    <script src="lirik.js"></script>
+    <script src="https://code.jquery.com/jquery-2.2.4.min.js"></script>
+  </body>
+</html>
