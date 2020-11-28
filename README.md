@@ -1,6 +1,7 @@
 # Weblyrics Free Source Code
 Author: Galih TheRasta<br>
 Licensed Under MIT License<br>
+<a href="https://www.codefactor.io/repository/github/galihrasta320/weblyrics"><img src="https://www.codefactor.io/repository/github/galihrasta320/weblyrics/badge" alt="CodeFactor" /></a>
 
 Kalian boleh secara bebas mengubah script ini. Saya sertakan panduannya<br>
 Kalau bisa jangan hapus copyrightnya di scriptnya ya :)<br>
